@@ -24,6 +24,10 @@ public class Estudante {
         this.notas = notas;
         this.media = media;
     }
+    
+    public Estudante() {
+        
+    }
 
     /**
      * @return the nome
@@ -40,7 +44,7 @@ public class Estudante {
     }
 
     /**
-     * @return the notas
+     * @return As notas a retornar
      */
     public Vector<Double> getNotas() {
         return notas;
